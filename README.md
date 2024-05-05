@@ -17,6 +17,7 @@ must have python installed if not fellow the guide [https://realpython.com/insta
 
    ```bash
    pip install -r requirements.txt
+   cd src 
    ```
 
 3. **Run the application:**
@@ -40,8 +41,8 @@ must have python installed if not fellow the guide [https://realpython.com/insta
 2. **Run the application:**
 
    ```bash
-docker build -t crud-api .
-docker run -p 8000:8000 crud-api
+   docker build -t crud-api .
+   docker run -p 8000:8000 crud-api
    ```
 
    The API will be available at `http://localhost:8000`
