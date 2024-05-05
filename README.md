@@ -7,7 +7,7 @@ This is a simple RESTful API built with FastAPI for managing books. It allows yo
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/martcpp/crud-api-fastapi.git
    ```
 
 2. **Install dependencies:**
@@ -19,7 +19,7 @@ This is a simple RESTful API built with FastAPI for managing books. It allows yo
 3. **Run the application:**
 
    ```bash
-   uvicorn main:app --reload
+   uvicorn app:app --reload
    ```
 
    The API will be available at `http://localhost:8000`.
@@ -28,7 +28,7 @@ This is a simple RESTful API built with FastAPI for managing books. It allows yo
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/martcpp/crud-api-fastapi.git
    ```
    ```bash
    cd CRUD-API-FASTAPI
@@ -93,3 +93,4 @@ The following fields are available for a book:
 - SQLAlchemy: SQL toolkit and Object-Relational Mapping (ORM) library for Python.
 - uvicorn: ASGI server for running FastAPI applications.
 - MySQL: MySQL server for running FastAPI applications with MySQL support enabled
+- psycopg2 : for connecting to to postgresql databases
