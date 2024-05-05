@@ -2,6 +2,9 @@
 
 This is a simple RESTful API built with FastAPI for managing books. It allows you to perform basic CRUD (Create, Read, Update, Delete) operations on a collection of books stored in a database.
 
+## Note
+must have python installed if not fellow the guide [https://realpython.com/installing-python/]
+
 ## Setup
 
 1. **Clone the repository:**
