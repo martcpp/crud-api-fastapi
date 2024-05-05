@@ -11,6 +11,7 @@ app = FastAPI()
 
 Base.metadata.create_all(bind=engine)
 
+
 def get_db_connection():
     db = session()
     try:
